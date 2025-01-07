@@ -3,11 +3,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Coming Soon Page</title>
-        <link rel="stylesheet" href="C:\Users\Damodar\OneDrive\HTML_CSS_AND_Javascript_Projects\CountDown_Timer\css\style.css">
+        <link rel="stylesheet" href="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/css/style.css">
     </head>
     <body>
     <div class="container">
-    <img src="C:\Users\Damodar\OneDrive\HTML_CSS_AND_Javascript_Projects\CountDown_Timer\images\logo.png" class="logo">
+    <img src="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/logo.png" class="logo">
 
     <div class="content">
         <p>Website Is Under Maintenance</p>
@@ -31,30 +31,30 @@
         </div>
     </div>
         <button type="button">Learn more
-            <img src="C:\Users\Damodar\OneDrive\HTML_CSS_AND_Javascript_Projects\CountDown_Timer\images\triangle.png">
+            <img src="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/triangle.png">
         </button>
     </div>
-    <img src="C:\Users\Damodar\OneDrive\HTML_CSS_AND_Javascript_Projects\CountDown_Timer\images\rocket.png" class="rocket">
+    <img src="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/rocket.png" class="rocket">
     </div>
     <script>
         // Set the countdown duration to 1 hour
         var countdownDuration = 60 * 60 * 1000; // 1 hour in milliseconds
-    
+
         var countDownDate = new Date().getTime() + countdownDuration;
         var x = setInterval(function(){
             var now = new Date().getTime();
             var distance = countDownDate - now;
-    
+
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
             document.getElementById("days").innerHTML = days;
             document.getElementById("hours").innerHTML = hours;
             document.getElementById("minutes").innerHTML = minutes;
             document.getElementById("seconds").innerHTML = seconds;
-    
+
             if (distance < 0) {
                 clearInterval(x);
                 document.getElementById("days").innerHTML = "00";
