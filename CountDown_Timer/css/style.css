@@ -8,75 +8,85 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(C:/Users/Damodar/OneDrive/HTML_CSS_AND_Javascript_Projects/CountDown_Timer/images/pexels-iriser-1379640.jpg);
+    background-image: url(https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/pexels-iriser-1379640.jpg);
     background-position: center;
     background-size: cover;
     padding: 0.8%;
 }
-.logo{
+
+.logo {
     width: 90px;
     padding: 5px;
     cursor: pointer;
 }
-.content{
+
+.content {
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
-    color:#fff;
+    color: #fff;
 }
-.content h1{
+
+.content h1 {
     font-size: 64px;
     font-weight: 500;
 }
-.content h1 span{
+
+.content h1 span {
     color: #ff3753;
 }
-.content button{
+
+.content button {
     background: transparent;
     border: 2px solid #fff;
     outline: none;
     padding: 12px 25px;
-    color:#fff;
+    color: #fff;
     display: flex;
     align-items: center;
     cursor: pointer;
     margin-top: 10px;
 }
-.content button img{
+
+.content button img {
     width: 15px;
     margin-left: 10px;
 }
-.launch-time{
+
+.launch-time {
     display: flex;
 }
-.launch-time div{
+
+.launch-time div {
     flex-basis: 100px;
 }
-.launch-time div p{
+
+.launch-time div p {
     font-size: 60px;
-    margin-bottom: -14px;
+    margin-bottom: 10px; 
 }
-.launch-time div span { 
-display: block; 
-font-size: 20px; 
-margin-top: 5px; 
+
+.launch-time div span {
+    display: block;
+    font-size: 20px;
+    margin-top: 5px; 
 }
-.rocket{
+
+.rocket {
     width: 250px;
     position: absolute;
     right: 10%;
     bottom: 0;
     animation: rocket 4s linear infinite;
 }
-@keyframes rocket{
-    0%{
+
+@keyframes rocket {
+    0% {
         bottom: 0;
         opacity: 0;
     }
-    100%{
+    100% {
         bottom: 105%;
         opacity: 1;
     }
-
 }
-    
