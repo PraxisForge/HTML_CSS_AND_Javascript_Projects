@@ -8,7 +8,7 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/pexels-iriser-1379640.jpg);
+    background-image: url(../images/pexels-iriser-1379640.jpg); /* Corrected relative path */
     background-position: center;
     background-size: cover;
     padding: 0.8%;
