@@ -3,41 +3,40 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Coming Soon Page</title>
-        <link rel="stylesheet" href="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/css/style.css">
+        <link rel="stylesheet" href="CountDown_Timer/css/style.css">
     </head>
     <body>
-    <div class="container">
-    <img src="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/logo.png" class="logo">
-
-    <div class="content">
-        <p>Website Is Under Maintenance</p>
-        <h1>We're<span>Launching</span>Soon</h1>
-    <div class="launch-time">
-        <div>
-            <p id="days">00</p>
-            <span>Days</span>
+        <div class="container">
+            <img src="CountDown_Timer/images/logo.png" class="logo">
+            <div class="content">
+                <p>Website Is Under Maintenance</p>
+                <h1>We're<span>Launching</span>Soon</h1>
+                <div class="launch-time">
+                    <div>
+                        <p id="days">00</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p id="hours">00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="minutes">00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div>
+                        <p id="seconds">00</p>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+                <button type="button">Learn more
+                    <img src="CountDown_Timer/images/triangle.png">
+                </button>
+            </div>
+            <img src="CountDown_Timer/images/rocket.png" class="rocket">
         </div>
-        <div>
-            <p id="hours">00</p>
-            <span>Hours</span>
-        </div>
-        <div>
-            <p id="minutes">00</p>
-            <span>Minutes</span>
-        </div>
-        <div>
-            <p id="seconds">00</p>
-            <span>Seconds</span>
-        </div>
-    </div>
-        <button type="button">Learn more
-            <img src="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/triangle.png">
-        </button>
-    </div>
-    <img src="https://raw.githubusercontent.com/PraxisForge/HTML_CSS_AND_Javascript_Projects/main/CountDown_Timer/images/rocket.png" class="rocket">
-    </div>
-    <script>
-        // Set the countdown duration to 1 hour
+        <script>
+            // Set the countdown duration to 1 hour
         var countdownDuration = 60 * 60 * 1000; // 1 hour in milliseconds
 
         var countDownDate = new Date().getTime() + countdownDuration;
@@ -63,6 +62,6 @@
                 document.getElementById("seconds").innerHTML = "00";
             }
         }, 1000);
-    </script>    
+        </script>    
     </body>
 </html>
