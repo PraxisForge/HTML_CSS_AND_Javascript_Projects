@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tera - Book Tickets For Latest Movies</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="script/script.js" defer></script>
+    <script src="script/Jquery.js"></script>
+
+    <link rel="shortcut icon" href="images/clapperboard.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+    <nav class="navigation">
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <a href="index.html" class="logo">
+            Tera<span>.Movies</span>
+        </a>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Genre</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <form action="" class="search-box">
+            <input type="text" name="search" placeholder="Search Movie" class="search-input" required>
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+    </nav>
+
+    <section id="main-slider">
+        <div class="slideshow-container">
+                <div class="main-slider-box mySlides">
+                    <a href="#" class="main-slider-overlay">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <div class="main-slider-img">
+                        <img src="images/stree-2-movie.jpg" alt="Poster"/>
+                    </div>
+                    <div class="main-slider-text">
+                        <span class="quality">4K Dolby Atmos 7.1</span>
+                        <div class="bottom-text">
+                            <div class="movie-name">
+                                <span>Stree 2</span>
+                                <strong>Madock Pictures</strong>
+                                <div class="tags-rating">
+                                    <span class="movie-tags">Horror. Mystery. Thriller</span>
+                                    <div class="rating">7.2<img src="images/imdb-icon.png" alt="imdb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider-box mySlides">
+                    <a href="#" class="main-slider-overlay">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <div class="main-slider-img">
+                        <img src="images/avesham.jpg" alt="Poster"/>
+                    </div>
+                    <div class="main-slider-text">
+                        <span class="quality">4K Dolby Atmos 7.1</span>
+                        <div class="bottom-text">
+                            <div class="movie-name">
+                                <span>Aavesham</span>
+                                <strong>Anwar Rasheed Entertainment</strong>
+                                <div class="tags-rating">
+                                    <span class="movie-tags">Action . Comedy</span>
+                                    <div class="rating">7.8<img src="images/imdb-icon.png" alt="imdb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider-box mySlides">
+                    <a href="#" class="main-slider-overlay">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <div class="main-slider-img">
+                        <img src="images/jailer.jpg" alt="Poster"/>
+                    </div>
+                    <div class="main-slider-text">
+                        <span class="quality">4K Dolby Atmos 7.1</span>
+                        <div class="bottom-text">
+                            <div class="movie-name">
+                                <span>Jailer</span>
+                                <strong>Sun TV Pictures</strong>
+                                <div class="tags-rating">
+                                    <span class="movie-tags">Action . Crime . Thriller</span>
+                                    <div class="rating">7.1<img src="images/imdb-icon.png" alt="imdb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider-box mySlides">
+                    <a href="#" class="main-slider-overlay">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <div class="main-slider-img">
+                        <img src="images/puspha-2.jpg" alt="Poster"/>
+                    </div>
+                    <div class="main-slider-text">
+                        <span class="quality">4K Dolby Atmos 7.1</span>
+                        <div class="bottom-text">
+                            <div class="movie-name">
+                                <span>puspha-2</span>
+                                <strong>Mythri productions</strong>
+                                <div class="tags-rating">
+                                    <span class="movie-tags">Drama. Crime. Action</span>
+                                    <div class="rating">6.3<img src="images/imdb-icon.png" alt="imdb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider-box mySlides">
+                    <a href="#" class="main-slider-overlay">
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <div class="main-slider-img">
+                        <img src="images/Godzilla-vs-kong.jpg" alt="Poster"/>
+                    </div>
+                    <div class="main-slider-text">
+                        <span class="quality">4K Dolby Atmos 7.1</span>
+                        <div class="bottom-text">
+                            <div class="movie-name">
+                                <span>Godzilla-vs-kong</span>
+                                <strong>Legendary Pictures</strong>
+                                <div class="tags-rating">
+                                    <span class="movie-tags">Action. Sci=Fi. Thriller</span>
+                                    <div class="rating">6.3<img src="images/imdb-icon.png" alt="imdb"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+    <section id="latest">
+        <div class="latest-heading">
+            <h1>Latest Movies</h1>
+        </div>
+        <div class="post-container">
+            <!-- Vidaamuyarchi -->
+            <div class="post-box">
+                <div class="post-img">
+                    <img src="images/Vidaamuyarchi.webp" alt="">
+                </div>
+                <div class="main-slider-text">
+                    <span class="quality">4K Dolby Atmos 7.1</span>
+                    <div class="bottom-text">
+                        <div class="movie-name">
+                            <span>Vidaamuyarchi</span>
+                            <strong>Lyca productions</strong>
+                            <div class="tags-rating">
+                                <span class="movie-tags">Action. Sci-Fi. Thriller</span>
+                                <div class="rating">6.3<img src="images/imdb-icon.png" alt="imdb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Marco -->
+            <div class="post-box">
+                <div class="post-img">
+                    <img src="images/marco.jpg" alt="">
+                </div>
+                <div class="main-slider-text">
+                    <span class="quality">4K Dolby Atmos 7.1</span>
+                    <div class="bottom-text">
+                        <div class="movie-name">
+                            <span>Marco</span>
+                            <strong>Cubes Entertainment</strong>
+                            <div class="tags-rating">
+                                <span class="movie-tags">Action</span>
+                                <div class="rating">7.4<img src="images/imdb-icon.png" alt="imdb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Mufasa -->
+            <div class="post-box">
+                <div class="post-img">
+                    <img src="images/Mufasa.jpeg" alt="">
+                </div>
+                <div class="main-slider-text">
+                    <span class="quality">4K Dolby Atmos 7.1</span>
+                    <div class="bottom-text">
+                        <div class="movie-name">
+                            <span>Mufasa The Lion King</span>
+                            <strong>Disney</strong>
+                            <div class="tags-rating">
+                                <span class="movie-tags">Animation. Adventure. Fantasy</span>
+                                <div class="rating">6.7<img src="images/imdb-icon.png" alt="imdb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Deva -->
+            <div class="post-box">
+                <div class="post-img">
+                    <img src="images/Deva.jpg" alt="">
+                </div>
+                <div class="main-slider-text">
+                    <span class="quality">4K Dolby Atmos 7.1</span>
+                    <div class="bottom-text">
+                        <div class="movie-name">
+                            <span>Deva</span>
+                            <strong>Zee Studios</strong>
+                            <div class="tags-rating">
+                                <span class="movie-tags">Action. Thriller</span>
+                                <div class="rating">8.1<img src="images/imdb-icon.png" alt="imdb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Captain America -->
+            <div class="post-box">
+                <div class="post-img">
+                    <img src="images/captian-america.jpeg" alt="">
+                </div>
+                <div class="main-slider-text">
+                    <span class="quality">4K Dolby Atmos 7.1</span>
+                    <div class="bottom-text">
+                        <div class="movie-name">
+                            <span>Captain America Brave New World</span>
+                            <strong>Marvel Studios</strong>
+                            <div class="tags-rating">
+                                <span class="movie-tags">Action. Sci-Fi. Adventure</span>
+                                <div class="rating">6.9<img src="images/imdb-icon.png" alt="imdb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Mission Impossible -->
+            <div class="post-box">
+                <div class="post-img">
+                    <img src="images/mission-impossible.jpg" alt="">
+                </div>
+                <div class="main-slider-text">
+                    <span class="quality">4K Dolby Atmos 7.1</span>
+                    <div class="bottom-text">
+                        <div class="movie-name">
+                            <span>Mission Impossible The Final Reconing</span>
+                            <strong>Paramount Pictures</strong>
+                            <div class="tags-rating">
+                                <span class="movie-tags">Action. Adventure. Thriller</span>
+                                <div class="rating">7.7<img src="images/imdb-icon.png" alt="imdb"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-number">
+            <a href="#" class="page-active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            ....
+            <a href="#">100</a>
+        </div>
+
+    </section>
+    <footer>
+        <a href="index.html" class="logo">Movies<span>hd</span></a>
+        <span class="copyright">
+            Copyrights © 2025
+        </span>
+    </footer>
+</body>
+</html>
