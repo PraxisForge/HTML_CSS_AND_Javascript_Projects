@@ -12,7 +12,9 @@ Welcome to the **CountDown Timer** project! This dynamic countdown timer is a pe
 
 Watch the CountDown Timer in action:
 
-<video width="640" controls>
-  <source src="video/CountDown_timer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/1-VefDKQBN5KHdtYLRI4JOOOzBh999sZ4/view?usp=sharing" 
+        width="640" height="360" 
+        allow="autoplay; encrypted-media" 
+        frameborder="0" allowfullscreen>
+</iframe>
+
