@@ -12,9 +12,4 @@ Welcome to the **CountDown Timer** project! This dynamic countdown timer is a pe
 
 Watch the CountDown Timer in action:
 
-<iframe src="https://drive.google.com/file/d/1-VefDKQBN5KHdtYLRI4JOOOzBh999sZ4/view?usp=sharing" 
-        width="640" height="360" 
-        allow="autoplay; encrypted-media" 
-        frameborder="0" allowfullscreen>
-</iframe>
-
+![Countdown Timer Demo](./video/CountDown_timer.gif)
