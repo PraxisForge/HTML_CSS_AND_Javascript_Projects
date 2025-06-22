@@ -1,14 +1,14 @@
 body {
-    background: url("C:/Users/Damodar/OneDrive/HTML_CSS_AND_Javascript_Projects/Form_Validation/images/pexels-sohi-807598.jpg") no-repeat center center fixed; background-size: cover;
+    background: url("./images/pexels-sohi-807598.jpg") no-repeat center center fixed;
+    background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
 
 .logo {
-     position: absolute;
-     top: 20px;
-      left: 20px;
-
-     } 
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
 
 .logo img { 
     width: 100px; 
@@ -45,11 +45,11 @@ body {
 
 .input-control input {
     border: 2px solid #f0f0f0;
-	border-radius: 4px;
-	display: block;
-	font-size: 12px;
-	padding: 10px;
-	width: 100%;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
 }
 
 .input-control input:focus {
@@ -71,11 +71,12 @@ body {
 }
 
 .footer {
-position: fixed; 
-right: 10px; 
-bottom: 10px; 
-font-weight: bold;
-color: white; 
-background-color: rgba(0, 0, 0, 0.5);  padding: 5px;
-border-radius: 5px;
+    position: fixed; 
+    right: 10px; 
+    bottom: 10px; 
+    font-weight: bold;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 5px;
+    border-radius: 5px;
 }
